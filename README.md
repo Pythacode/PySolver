@@ -2,6 +2,10 @@
 
 ## Présentation du projet
 
+> [!WARNING]
+> Ce projet n'est en aucun cas certifié infaillible, il peut donc contenir des bugs... Merci de votre compréhension.
+> Si vous en trouvez un, vous pouvez me le faire parvenir en [créant une *issue*](https://github.com/Pythacode/PySolver/issues), **avec la sortie console**
+
 Ce projet à été cré dans le cadre de cours de math.
 Il s'agit d'un code en ligne de commande permetant de résoudre un système d'équation à deux inconu (`x` & `y`) et à deux ligne. Attention, ce programme ne peut pas faire de produit.
 
@@ -51,7 +55,7 @@ Cette fonction vérifie si `nbr` contient un nombre. On l'apelleras dans `get_pa
 ##### Input :
 | Variable | Description | Type | Exemple |
 |----------|----|--|---------|
-| nbr  | - | str  | "4x" ou "x"  |
+| nbr  | Variable à verifier si il y à nombre | str  | "4x" ou "x"  |
 
 ##### Output :
 bool :
@@ -59,4 +63,44 @@ bool :
 
 ### Fonction `split_with_sign(text, sign:str)`
 
-Permet de séparer `text` avec `sign` en gardant le signe, si l'expression n'en à pas déja
+Permet de séparer `text` avec `sign` en gardant le signe, si l'expression n'en à pas déja (`+` ou `-`)
+
+##### Input :
+| Variable | Description | Type | Exemple |
+|----------|----|--|---------|
+| text  | Variable à séparer | str  | "4x+9y" |
+| sign  | Signe pour séparer | str  | "+" |
+
+##### Output :
+Une liste.
+
+### Fonction `get_param(exp, is_invert=False)`
+
+Cette fonction permet de trouver les paramètres a, b, c, d, e, f pour résoudre le système.
+
+##### Input :
+| Variable | Description | Type | Exemple |
+|----------|----|--|---------|
+| exp  | une liste d'élément récuperer avec `split_with_sign`  | list  | ["+4x", "+9y"] |
+| is_invert  | Faut-il inverser les résultat. Cette variable, par default `False`, permer de spécifier si c'est le membre droit ou gauche de l'équation dont on cherche à récuperer les valeurs | bool  | True |
+
+##### Output :
+
+| Ordre | Variable | Description | Type | Exemple |
+|----|------|----|--|---------|
+| 1 | x | Nombre de `x`  | int  | 1 |
+| 2 | x | Nombre de `y`  | int  | 7 |
+| 3 | x | Quotient  | int  | 4 |
+
+On Récupère une liste sous forme (par exemple) de ["+2x", "-7x", "-8", "+x", ...]
+On boucle cette liste, puis :
+    Si l'élèment contient un y :
+        Si il y à un chiffre dans l'élèment sans le y, alors, on ajoute se chiffre a la liste y (en le convertisant en float)
+        Sinon, on ajoute 1 ou -1 en fonction du signe (élèments seras alors égal à "-y" ou "+y")
+    Idem avec x
+    Sinon, on ajoute l'élèment à r (en le convertisant en float)
+Ensuite,
+Si la variable is_invert = True :
+    On inverse tous les élèments de chaque liste.
+    Cela permet de mettre tous les élèment dans le menbre gauche de l'équation, la variable is_invert seras donc égal à true quand se seras le membre droit de l'équation
+Enfin, on fait la somme des liste, puis on les renvoie.
