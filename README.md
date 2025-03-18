@@ -107,18 +107,18 @@ Cette fonction permet de trouver les paramètres a, b, c, d, e, f pour résoudre
 Cette fonction permet de résoudre le système pour les paramètres a, b, c, d, e, f pour le système suivant :
 
 $$
-\documentclass{article}
-\begin{document}
-\[
-\left \{
-\begin{array}{c @{=} c}
-    x & \sin a \cos b \\
-    y & \sin a \sin b
-\end{array}
-\right.
-\]
-\end{document}
+\begin{aligned}
+    ax + by &= e \\
+    cx + dy &= f
+\end{aligned}
 $$
+
+```math
+\begin{aligned}
+    ax + by &= e \\
+    cx + dy &= f
+\end{aligned}
+```
 
 ##### Input :
 
