@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 > [!TIP]
-> Python doit être installer, sinon, [installer-le]([https://pip.pypa.io/en/stable/installation/](https://www.python.org/downloads/)).
+> Python doit être installer, sinon, [installer-le](https://www.python.org/downloads/).
 > Pip doit également être instalé, sinon, [installer-le](https://pip.pypa.io/en/stable/installation/) ou ajoutez `python -m` au début de la commande.
 
 ## Utilisation 
