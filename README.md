@@ -114,3 +114,32 @@ Cette fonction permet de trouver les paramètres a, b, c, d, e, f pour résoudre
 | 2 | x | Nombre de `y`  | int  | 7 |
 | 3 | x | Quotient  | int  | 4 |
 
+
+### Fonction `resoudre_systeme(a, b, c, d, e, f)`
+
+Cette fonction permet de résoudre le système pour les paramètres a, b, c, d, e, f pour le système suivant :
+
+$$
+\begin{cases} 
+ax + by = e \\ 
+cx + dy = f 
+\end{cases}
+$$
+
+| ax+by=e
+| cx+dy=f
+
+##### Input :
+| Variable | Description | Type | Exemple |
+|----------|----|--|---------|
+| exp  | une liste d'élément récuperer avec `split_with_sign`  | list  | ["+4x", "+9y"] |
+| is_invert  | Faut-il inverser les résultat. Cette variable, par default `False`, permer de spécifier si c'est le membre droit ou gauche de l'équation dont on cherche à récuperer les valeurs | bool  | True |
+
+##### Output :
+
+| Ordre | Variable | Description | Type | Exemple |
+|----|------|----|--|---------|
+| 1 | x | Nombre de `x`  | int  | 1 |
+| 2 | x | Nombre de `y`  | int  | 7 |
+| 3 | x | Quotient  | int  | 4 |
+
