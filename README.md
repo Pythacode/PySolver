@@ -107,28 +107,12 @@ Cette fonction permet de trouver les paramètres a, b, c, d, e, f pour résoudre
 Cette fonction permet de résoudre le système pour les paramètres a, b, c, d, e, f pour le système suivant :
 
 $$
-\documentclass{article}
-\usepackage{amsmath}
-
-\newenvironment{rcases}
-  {\left.\begin{aligned}}
-  {\end{aligned}\right\rbrace}
-\begin{document}
-\end{document}
-
+\begin{aligned}
+ax + by = e \\
+cx + dy = f
+\end{aligned}
 $$
 
-```math
-\documentclass{article}
-\usepackage{amsmath}
-
-\newenvironment{rcases}
-  {\left.\begin{aligned}}
-  {\end{aligned}\right\rbrace}
-\begin{document}
-\end{document}
-
-```
 
 ##### Input :
 
