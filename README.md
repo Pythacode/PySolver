@@ -1,5 +1,12 @@
 # $\textsf{\color{#ba1ce6}{Py}} \textsf {Solver}$
 
+## Somaire
+
+- Présentation du projet
+- Instalation
+- Utilisation
+- Explication du code
+
 ## Présentation du projet
 
 > [!WARNING]
