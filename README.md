@@ -46,4 +46,17 @@ Pour tous ceux & celle qui veulent améliorer le code, le modifier, ajouter une 
 
 #### Fonction `contient_nombre(nbr)`
 
-Cette fonction vérifie si `nbr` contient un nombre. On l'apelleras dans `get_param()`
+##### Input :
+| Variable | Description | Type | Exemple |
+|----------|----|--|---------|
+| nbr  | - | str  | "4x" ou "x"  |
+
+##### Output :
+bool :
+`True` si `nbr` contient un nombre
+
+Cette fonction vérifie si `nbr` contient un nombre. On l'apelleras dans `get_param(exp, is_invert=False)`
+
+### Fonction `split_with_sign(text, sign:str)`
+
+Permet de séparer `text` avec `sign` en gardant le signe, si l'expression n'en à pas déja
