@@ -55,7 +55,7 @@ Pour tous ceux & celle qui veulent améliorer le code, le modifier, ajouter une 
 
 ### Fichier `main.py`
 
-> [!TIPS]
+> [!TIP]
 > Souvent, le code est commenté ligne par ligne dans le fichier. Si tu ne comprend pas cet explication, lis le code, tu comprendras peut-être mieux
 
 #### Fonction `contient_nombre(nbr)`
