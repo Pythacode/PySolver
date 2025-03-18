@@ -7,7 +7,7 @@ Il s'agit d'un code en ligne de commande permetant de résoudre un système d'é
 
 ## Instalation
 
-Pour lancer le projet, télécharger le avec 
+Pour lancer le projet, téléchargez le avec 
 ```cmd
 git clone https://github.com/Pythacode/PySolver.git
 ```
@@ -17,4 +17,7 @@ Ensuite, rentrer dans le dossier du projet, puis intaller les dépandance avec
 ```cmd
 pip install -r requirements.txt
 ```
-(Pip doit être instalé, sinon, (installer-le)[https://pip.pypa.io/en/stable/installation/])
+
+> [!TIP]
+> Python doit être installer, sinon, [installer-le]([https://pip.pypa.io/en/stable/installation/](https://www.python.org/downloads/)).
+> Pip doit également être instalé, sinon, [installer-le](https://pip.pypa.io/en/stable/installation/) ou ajoutez `python -m` au début de la commande.
