@@ -46,6 +46,8 @@ Pour tous ceux & celle qui veulent améliorer le code, le modifier, ajouter une 
 
 #### Fonction `contient_nombre(nbr)`
 
+Cette fonction vérifie si `nbr` contient un nombre. On l'apelleras dans `get_param(exp, is_invert=False)`
+
 ##### Input :
 | Variable | Description | Type | Exemple |
 |----------|----|--|---------|
@@ -54,8 +56,6 @@ Pour tous ceux & celle qui veulent améliorer le code, le modifier, ajouter une 
 ##### Output :
 bool :
 `True` si `nbr` contient un nombre
-
-Cette fonction vérifie si `nbr` contient un nombre. On l'apelleras dans `get_param(exp, is_invert=False)`
 
 ### Fonction `split_with_sign(text, sign:str)`
 
