@@ -107,10 +107,14 @@ Cette fonction permet de trouver les paramètres a, b, c, d, e, f pour résoudre
 Cette fonction permet de résoudre le système pour les paramètres a, b, c, d, e, f pour le système suivant :
 
 $$
+\[
+\left\{
 \begin{aligned} 
-ax + by = e \\ 
-cx + dy = f 
+    ax + by &= e \\ 
+    cx + dy &= f 
 \end{aligned}
+\right.
+\]
 $$
 
 ##### Input :
