@@ -107,7 +107,17 @@ Cette fonction permet de trouver les paramètres a, b, c, d, e, f pour résoudre
 Cette fonction permet de résoudre le système pour les paramètres a, b, c, d, e, f pour le système suivant :
 
 $$
-\systeme{2a-3b+4c=2, a+8b+5c=8, -a+2b+c=-5}.
+\documentclass{article}
+\begin{document}
+\[
+\left \{
+\begin{array}{c @{=} c}
+    x & \sin a \cos b \\
+    y & \sin a \sin b
+\end{array}
+\right.
+\]
+\end{document}
 $$
 
 ##### Input :
