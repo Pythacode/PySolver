@@ -91,9 +91,9 @@ Cette fonction permet de trouver les paramètres a, b, c, d, e, f pour résoudre
 
 | Ordre | Variable | Description | Type | Exemple |
 |----|------|----|--|---------|
-| 1 | x | Nombre de `x`  | float  | 1 |
-| 2 | x | Nombre de `y`  | float  | 7 |
-| 3 | x | Quotient  | int  | 4 |
+| 1 | x | Nombre de `x`  | float  | 1.5 |
+| 2 | x | Nombre de `y`  | float  | 7.0 |
+| 3 | x | Quotient  | float  | 4.0 |
 
 ### Fonction `resoudre_systeme(a, b, c, d, e, f)`
 
@@ -114,6 +114,6 @@ Variable `a`, `b`, `c`, `d`, `e`, `f`. Variable correspondante au système ci-de
 
 | Ordre | Variable | Description | Type | Exemple |
 |----|------|----|--|---------|
-| 1 | y | Valeur de `x`  | float  | 1 |
-| 2 | x | Valeur de `y`  | float  | 7 |
+| 1 | y | Valeur de `x`  | float  | 1.7 |
+| 2 | x | Valeur de `y`  | float  | 7.4 |
 
