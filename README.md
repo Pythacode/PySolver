@@ -3,7 +3,7 @@
 ## Présentation du projet
 
 Ce projet à été cré dans le cadre de cours de math.
-Il s'agit d'un code en ligne de commande permetant de résoudre un système d'équation à deux inconu (`x` & `y`)
+Il s'agit d'un code en ligne de commande permetant de résoudre un système d'équation à deux inconu (`x` & `y`) et à deux ligne. Attention, ce programme ne peut pas faire de produit.
 
 ## Installation
 
@@ -36,4 +36,14 @@ python3 main.py
 Le programe vous demanderas d'entrer les deux expression l'une après l'autre.
 
 > [!IMPORTANT]
-> Veillez à utiliser uniquement `x` et `y` pour les inconus, et `+` et `-` pour les signes. Ce programmes ne peut pas faire de produit.
+> Veillez à utiliser uniquement `x` et `y` pour les inconus, et `+`, `-`, `=` pour les signes. Ce programmes ne peut pas faire de produit.
+
+## Explication du code
+
+Pour tous ceux & celle qui veulent améliorer le code, le modifier, ajouter une UI, cette section est faite pour toi :
+
+### Fichier `main.py`
+
+#### Fonction `contient_nombre(nbr)`
+
+Cette fonction vérifie si `nbr` contient un nombre. On l'apelleras dans `get_param()`
