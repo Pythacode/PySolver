@@ -13,7 +13,7 @@
 > Ce projet n'est en aucun cas certifié infaillible, il peut donc contenir des bugs... Merci de votre compréhension.
 > Si vous en trouvez un, vous pouvez me le faire parvenir en [créant une issue](https://github.com/Pythacode/PySolver/issues), **avec la sortie console**
 
-Ce projet à été cré dans le cadre de cours de math.
+Ce projet à été créer dans le cadre de cours de math.
 Il s'agit d'un code en ligne de commande permetant de résoudre un système d'équation à deux inconu (`x` & `y`) et à deux ligne. Attention, ce programme ne peut pas faire de produit.
 
 ## Installation
