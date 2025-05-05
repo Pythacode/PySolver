@@ -60,7 +60,7 @@ Pour tous ceux & celles qui veulent améliorer le code, le modifier, ajouter une
 
 #### Fonction `contient_nombre(nbr)`
 
-Cette fonction vérifie si `nbr` contient un nombre. On l'appellera dans `get_param(exp, is_invert=False)`
+Cette fonction vérifie si `nbr` contient un nombre.
 
 ##### Input :
 | Variable | Description | Type | Exemple |
@@ -122,5 +122,5 @@ Variable `a`, `b`, `c`, `d`, `e`, `f`. Variables correspondantes au système ci-
 
 | Ordre | Variable | Description | Type | Exemple |
 |----|------|----|--|---------|
-| 1 | y | Valeur de `x`  | float  | 1.7 |
-| 2 | x | Valeur de `y`  | float  | 7.4 |
+| 1 | x | Valeur de `x`  | float  | 1.7 |
+| 2 | y | Valeur de `y`  | float  | 7.4 |
